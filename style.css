@@ -2,10 +2,33 @@
     margin: 0px 0px;
 }
 
+body{
+    background: url(car1.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    /* height: 4400px; */
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
 .navbar{
-    background-color: black;
     color: white;
     border-radius: 15px;
+    /* position: fixed; */
+    display: block;
+    width: 40%;
+    margin: auto;
+    background: rgba(162, 161, 161, 0.815);
+    backdrop-filter: blur(0px);
 }
 
 .navbar ul{
@@ -19,28 +42,36 @@
 }
 
 .navbar li a{
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 3px 3px;
     text-decoration: none;
     color: white;
 }
 
-.search{
-    float: right;
-    padding: 5px 50px;
-    margin: 10px 25px;
-    border-radius: 8px;
-    text-align: center;
+.navbar li a:hover{
+    text-decoration: underline;
+    color: purple;
 }
 
-.m{
-    border: 2px solid red;
-    display: block;
-    width: 10%;
+
+.m img{
+    /* border: 2px solid red; */
+    position: fixed;
+    width: 5%;
+    /* margin: auto; */
+    right: 1px;
+    bottom: 1px;
+}
+
+/* img{
     margin: auto;
+    display: block;
 }
 
-
-.m h3{
+h3{
     display: inline;
-}
+    text-align: center;
+    margin: 0px;
+} */
 
